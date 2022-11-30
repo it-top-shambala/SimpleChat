@@ -11,8 +11,4 @@
       <ProjectReference Include="..\SimpleChat.TCPLib\SimpleChat.TCPLib.csproj" />
     </ItemGroup>
 
-    <ItemGroup>
-      <Folder Include="Models" />
-    </ItemGroup>
-
 </Project>
