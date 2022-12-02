@@ -8,6 +8,7 @@
     </PropertyGroup>
 
     <ItemGroup>
+      <ProjectReference Include="..\SimpleChat.ModelMessages\SimpleChat.ModelMessages.csproj" />
       <ProjectReference Include="..\SimpleChat.TCPLib\SimpleChat.TCPLib.csproj" />
     </ItemGroup>
 

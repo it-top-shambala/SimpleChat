@@ -28,7 +28,7 @@ public class TcpBase
     public async Task SendAsync(string message)
     {
         var bufferSend = Encoding.UTF8.GetBytes(message);
-        await Socket.SendAsync(new ReadOnlyMemory<byte>(bufferSend), SocketFlags.None, CancellationToken.None);
+        await Socket.SendAsync(new ArraySegment<byte>(bufferSend), SocketFlags.None);
     }
 
     public async Task<string> ReceiveAsync()

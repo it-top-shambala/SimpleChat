@@ -19,11 +19,12 @@
         </Grid.RowDefinitions>
 
         <Border Grid.Row="0">
-            <TextBlock />
+            <TextBlock Text="{Binding Output}" />
         </Border>
 
         <StackPanel Grid.Row="1" Orientation="Horizontal">
-            <TextBox Text="{Binding Message, UpdateSourceTrigger=PropertyChanged}" />
+            <TextBox Text="{Binding Message, UpdateSourceTrigger=PropertyChanged}"
+                     Width="200"/>
             <Button Content="Отправить"
                     Command="{Binding SendMessageCommand}"/>
         </StackPanel>

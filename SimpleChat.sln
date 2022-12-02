@@ -6,6 +6,8 @@ Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "SimpleChat.TCPLib", "Simple
 EndProject
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "SimpleChat.Client", "SimpleChat.Client\SimpleChat.Client.csproj", "{3F03313A-A359-4740-8018-CDDB27255701}"
 EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "SimpleChat.ModelMessages", "SimpleChat.ModelMessages\SimpleChat.ModelMessages.csproj", "{360CA9B3-19A9-4C7D-B243-7472F5678E20}"
+EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
 		Debug|Any CPU = Debug|Any CPU
@@ -24,5 +26,9 @@ Global
 		{3F03313A-A359-4740-8018-CDDB27255701}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{3F03313A-A359-4740-8018-CDDB27255701}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{3F03313A-A359-4740-8018-CDDB27255701}.Release|Any CPU.Build.0 = Release|Any CPU
+		{360CA9B3-19A9-4C7D-B243-7472F5678E20}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{360CA9B3-19A9-4C7D-B243-7472F5678E20}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{360CA9B3-19A9-4C7D-B243-7472F5678E20}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{360CA9B3-19A9-4C7D-B243-7472F5678E20}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 EndGlobal

@@ -8,7 +8,18 @@
   </PropertyGroup>
 
   <ItemGroup>
-    <ProjectReference Include="..\SimpleChat.TCPLib\SimpleChat.TCPLib.csproj"/>
+    <ProjectReference Include="..\SimpleChat.ModelMessages\SimpleChat.ModelMessages.csproj" />
+    <ProjectReference Include="..\SimpleChat.TCPLib\SimpleChat.TCPLib.csproj" />
+  </ItemGroup>
+
+  <ItemGroup>
+    <PackageReference Include="Logger_csharp" Version="0.2.0" />
+  </ItemGroup>
+
+  <ItemGroup>
+    <None Update="log_paths.json">
+      <CopyToOutputDirectory>PreserveNewest</CopyToOutputDirectory>
+    </None>
   </ItemGroup>
 
 </Project>

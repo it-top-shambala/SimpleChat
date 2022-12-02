@@ -1,0 +1,6 @@
+﻿{
+  "PathInfo": "server.log",
+  "PathWarning": "server.log",
+  "PathError": "server.log",
+  "PathSuccess": "server.log"
+}
